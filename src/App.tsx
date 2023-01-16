@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
+import Testimonies from './Components/Testimonies';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main-container">
+        <h1>Esto es lo que dicen las personas que aprendieron React!</h1>
+      </div>
+      <Testimonies
+        Name= 'Juancito Rodriguez'
+        Country= 'Argentina'
+        Image= 'placeHolder.jpg'
+        Role= 'Ingeniero de software'
+        Corporation= 'TurtleSoft'
+        Testimonie='Yo era un aventurero, iba de aqui aca, hasta que aprendi react, ahora soy un desarrollador util'
+      />
+      <Testimonies 
+        Name= 'Jasinta Monte Hermoso'
+        Country= 'Uruguay'
+        Image= 'placeHolder.jpg'
+        Role= 'Ingeniera de software'
+        Corporation= 'JoeSoft'
+        Testimonie='Yo era un aventurera, iba de aqui aca, hasta que aprendi react, ahora soy una desarrolladora, es genial!'
+      />
+      <Testimonies 
+        Name= 'Romina Che'
+        Country= 'Cuba'
+        Image= 'placeHolder.jpg'
+        Role= 'Programadora'
+        Corporation= 'CubaSoft'
+        Testimonie='Siempre fui desarrolladora, ahora con react puedo avanzar en mi trabajo.'
+      />
     </div>
   );
 }

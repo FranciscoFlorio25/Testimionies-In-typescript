@@ -1,0 +1,37 @@
+.container-testimonie{
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.image-testimonie{
+    height: 100%;
+    width: auto;
+}
+
+.container-testimonie-text{
+    text-align: center;
+    padding: 40px;
+    font-family: lato,sans-serif;
+    font-weight: 400px ;
+    line-height: 1.5rem;
+}
+.testimonie-name{
+    font-size: 1.3rem;
+}
+
+.role-testimonie{
+    font-size: 1.3rem;
+    margin: 15px;
+    padding-bottom: 30px;
+}
+
+.testimonie-tex{
+    font-size: 1.1rem;
+    text-align: justify;
+}
